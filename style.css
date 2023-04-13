@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Josefin+Sans:wght@400;700&family=Montserrat:wght@200&family=Source+Sans+Pro:wght@200;300;400;700&display=swap');
+* {
+	box-sizing: border-box;
+}
+html, body {
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+body{
+	background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),
+				url("img/wallpaper.gif") no-repeat center center fixed;
+	background-size: cover;
+    margin: 0;
+	position: relative;
+        text-align: center;
+        font-family: 'Montserrat';
+        color: #fff;
+}
+@media (max-width: 624px) {
+    .cont{
+        overflow: hidden;
+        visibility: hidden;
+        width: 300px;
+    }
+  }
+.btn{
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.btn:hover{
+    cursor: pointer;
+}
